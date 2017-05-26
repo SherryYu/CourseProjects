@@ -1,0 +1,51 @@
+.index-main {
+    min-width:100%;
+    margin-bottom: -42px;
+}
+.index-main-body {
+    margin: auto;
+    padding: 60px 0 102px;
+    width: 500px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.wG {
+    display: inline-block;
+    height: 26px;
+    margin: 0 2px;
+}
+.image {
+    background: url(1.png);
+    background-size: 30px 904px;
+}
+#myeditor {
+    overflow:scroll;
+    max-height:300px;
+}
+.btn {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 16px;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    transition: border 0.2s ease 0s, background 0.2s ease 0s, color 0.2s ease 0s, box-shadow 0.2s ease 0s;
+}
+.f-btn {
+    color: #252525;
+    border-color: #252525;
+    background: transparent;
+}
+.f-btn:hover {
+    color: #ffffff;
+    background:#0e0e0e;
+}

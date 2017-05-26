@@ -1,0 +1,28 @@
+Requirements:
+OpenCV 2.4
+Python 2.7
+OpenGL
+pygame
+PIL
+
+Running environment when test:
+mac OS 10.12 Sierra
+
+
+1. Run getImage to get chessboard images (move a little to get different angle)
+(press 'a' to save 1 image, until 30 images has been saved)
+
+2. Run chessboard to get intrinsic parameters of your camera.
+chessboard size can be manipulated in chessboard, line 21
+
+3. Run handyAR, follow instructions below:
+
+# Usage:
+# 1. Run, choose a stable background, do not put you hand in
+# 2. press 'b' to get a black contour window, then put your hand in
+# 3. when you see a clear hand shape, press 's' to do calibration and draw axes
+# 4. If background fails, press 'r' to reset background(remember not to put your hand in), then do the same as (2).
+# 5. ignore the pygame window, it has to be there
+# 6. ESC to exit
+
+Enjoy:)

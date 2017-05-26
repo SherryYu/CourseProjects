@@ -1,0 +1,8 @@
+#Produced by Art of Illusion 1.7, Sat Jul 03 14:56:28 ICT 2004
+newmtl ConeMaterial
+Kd 1 1 1
+map_Kd ./obj/R.gif
+Ks 0.5 0.5 0.5
+Ka 0 0 0
+illum 1
+Ns 1
